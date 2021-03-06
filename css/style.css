@@ -1,0 +1,509 @@
+
+html,
+body {
+    /* width: 100%; */
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.header {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative; */
+}
+.girlimage {
+   /* object-fit: cover; */
+   /* opacity: 1.2; */ */
+   /* background-color: #63d471;
+   background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);  */
+   border-radius: 13px;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+ }
+ .color{
+   position: absolute;
+   z-index: 2;
+   width: 100%;
+   /* border-radius: 5px; */
+ }
+.eduimg{
+  position: absolute;
+  border-radius: 7px;
+  background-color: white;
+  z-index: 3;
+  top: 375px;
+  left: 130px;
+  padding-top: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* width: 10% */
+}
+
+#qualities
+{
+  margin-top: 620px;
+  padding: 30px 150px 30px 150px;
+  background-color:  #fafafa;
+}
+.rect
+{
+  padding-top:20px;
+  padding-bottom: 30px;
+}
+.rect1{
+  position: relative;
+  z-index: 1;
+}
+.icon1 {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom:55px;
+  right: 65px;;
+}
+.cont1{
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  right: 35px;
+}
+.rect2{
+  position: relative;
+  z-index: 1;
+}
+.icon2 {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom:55px;
+  right: 40px;;
+}
+.cont2{
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 35px;
+  /* width: 50%; */
+}
+.rect3{
+  position: relative;
+  z-index: 1;
+}
+.icon3 {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom:55px;
+  right: 40px;;
+}
+.cont3{
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 35px;
+  /* width: 50%; */
+}
+.rect4{
+  position: relative;
+  z-index: 1;
+}
+.icon4 {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  bottom:55px;
+  right: 50px; */
+}
+.cont4{
+  display: block;
+  position: absolute;
+  z-index: 2;
+  /* bottom: 90px; */
+  left: 35px;
+  top:40px;
+  /* width: 50%; */
+}
+.education{
+  text-align: center;
+  background-color:  #fafafa ;
+  line-height: 2.5;
+  padding-bottom: 20px;
+}
+.syllabus
+{
+  /* margin: 100px;; */
+  text-align: left;
+  /* display: inline; */
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.girlpic{
+  float: left;
+  margin-left: 130px;
+}
+.tex1{
+  padding-left: 30px;
+  padding-top: 30px;
+  display: inline-block;
+  line-height: 2.5;
+}
+.topic1{
+  padding-left: 30px;
+}
+h2{
+  display: inline;
+  font-weight: 400!important; */
+  font-family: 'Lato', sans-serif;
+}
+.performance{
+   /* text-align: left; */
+   background-color: #fafafa;
+   /* width: 100%; */
+   /* margin-top: 80px; */
+   margin-top: 50px;
+   padding-top: 40px;
+   padding-left: 80px;
+}
+.tex2{
+  padding-left: 130px;
+  line-height: 2.5;
+  display: inline-block; */
+  background-color: #fafafa;
+  /*\\ padding-top: 80px; */
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+.performpic{
+  float: right;
+  margin-right: 130px;
+  /* background-color: #fafafa; */
+}
+.topic2{
+    margin-top: 50px !important;
+    padding-left: 130px;
+    /* background-color: #fafafa; */
+    display: inline-block;
+}
+.concall
+{
+  /* margin: 100px;; */
+  text-align: left;
+  /* display: inline; */
+  margin-top: 50px;
+  padding-bottom: 50px;
+
+}
+.conc{
+  float: left;
+  margin-left: 130px;
+  height: 450px;
+}
+.tex3{
+  padding-left: 30px;
+  padding-top: 20px;
+  display: inline-block;
+  line-height: 2.5;
+  /* margin-bottom: 40px; */
+}
+.topic3{
+  padding-left: 30px;
+  display: inline-block;
+    margin-top: 100px !important;
+}
+.footer{
+  height: 100px;
+  /* width: 100%; */
+  background-color: #fafafa;
+  text-align: center;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+/* =-=-=-=-=-=-= Navigation =-=-=-=-=-=-= */
+
+/* Dropdown */
+
+
+
+  .dropdown .dropbtn {
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+
+  }
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+/* Dropdown End*/
+.navbar-custom {
+    background-color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: 0 0 1px 0px #000;
+}
+
+.navbar-custom .dropdown-menu {
+    background: #fff;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    min-width: 180px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.navbar-custom .nav li > a {
+    position: relative;
+    color: green;
+}
+
+.navbar-collapse {
+    max-height: 340px;
+}
+
+
+.navbar-custom .dropdown-menu > li > a {
+    border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+    padding: 11px 20px;
+    font-size: 13px;
+    color: green;
+} */
+.navbar-custom .dropdown-menu > li:last-child > a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.navbar-custom .dropdown-menu .dropdown-menu {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    left: 100%;
+    right: auto;
+    top: 0;
+    margin-top: 0;
+}
+
+.navbar-custom .dropdown-menu.left-side .dropdown-menu {
+    border: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    right: 100%;
+    left: auto;
+}
+
+
+.navbar-custom .nav > li > a:focus,
+.navbar-custom .nav > li > a:hover,
+.navbar-custom .nav > li.active > a,
+.navbar-custom .nav .open > a,
+.navbar-custom .nav .open > a:focus,
+.navbar-custom .nav .open > a:hover,
+.navbar-custom .dropdown-menu > li > a:focus,
+.navbar-custom .dropdown-menu > li > a:hover,
+.navbar-custom .dropdown-menu>.active>a,
+.navbar-custom .dropdown-menu>.active>a:focus,
+.navbar-custom .dropdown-menu>.active>a:hover {
+    background-color: transparent;
+    color: green;
+}
+
+
+.navbar-custom .dropdown-menu > li > a:hover {
+    padding-left: 25px;
+}
+
+.navbar-custom .dropdown-toggle:after {
+    position: absolute;
+    display: block;
+    right: 3px;
+    top: 50%;
+    margin-top: -6px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 12px;
+    content: "\f107";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background: #fff;
+}
+
+
+
+/* -------------------------------------------------------------------
+Responsive Media Querries
+------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+    .tt-default-nav {
+        width: 100%;
+        height: 100px;
+        z-index: 1000;
+        -webkit-transition: height 0.4s ease;
+        -moz-transition: height 0.4s ease;
+        transition: height 0.4s ease;
+    }
+    .tt-default-nav.sticky {
+        height: 60px;
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+    }
+    .tt-default-nav .navbar-brand {
+        height: 100px;
+        padding: 36px 15px;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+    .tt-default-nav.sticky .navbar-brand {
+        height: 60px;
+        padding: 15px 15px;
+    }
+    .tt-default-nav.navbar-custom .nav>li>a {
+        line-height: 100px;
+        padding: 0 12px;
+    }
+    .tt-default-nav.sticky.navbar-custom .nav>li>a {
+        line-height: 60px;
+    }
+
+    .navbar-fixed-top.transparent {
+        background: transparent;
+        box-shadow: none;
+        -webkit-transition: background .4s ease;
+        -moz-transition: background .4s ease;
+        transition: background .4s ease;
+    }
+    .navbar-fixed-top.transparent.sticky {
+        background: #000;
+        box-shadow: 0 0 1px 0 #000;
+    }
+    .navbar-fixed-top .navbar-brand {
+        padding: 38px 15px;
+    }
+    .navbar-fixed-top.sticky .navbar-brand {
+        padding: 15px 15px;
+    }
+    .navbar-fixed-top .navbar-nav>li>a {
+        padding: 40px 15px 40px 0;
+        margin-right: 15px;
+    }
+    .navbar-fixed-top.sticky .navbar-nav>li>a {
+        padding: 20px 15px 20px 0;
+    }
+
+    .navbar-custom .dropdown-menu {
+        position: absolute;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s ease 0s;
+        -moz-transition: opacity 0.3s ease 0s;
+        -o-transition: opacity 0.3s ease 0s;
+        transition: opacity 0.3s ease 0s;
+    }
+
+    .navbar-custom .open > .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .navbar-custom .dropdown-menu .dropdown-toggle:after {
+        position: absolute;
+        display: block;
+        right: 10px;
+        top: 50%;
+        margin-top: -6px;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: 12px;
+        content: "\f105";
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .tt-default-nav.navbar-custom .nav>li {
+        margin-right: 15px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    /* Navbar */
+    .navbar-custom {
+        background-color: #fff;
+    }
+
+    .navbar-custom .navbar-nav {
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+
+    .tt-default-nav.sticky {
+        width: 100%;
+        z-index: 1000;
+        position: fixed;
+        top: 0;
+    }
+
+
+    .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-header,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        padding: 10px 25px;
+    }
+
+    .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu .dropdown-header,
+    .navbar-custom .navbar-nav .open .dropdown-menu .dropdown-menu > li > a {
+        padding: 10px 35px;
+    }
+
+    .navbar-custom li a {
+        border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+    }
+
+    .navbar-custom .dropdown-toggle:after,
+    .navbar-custom .dropdown-menu .dropdown-toggle:after {
+        font-size: 14px;
+        right: 20px;
+        content: "\f107";
+    }
+
+    .navbar-custom .nav > .open >.dropdown-toggle:after,
+    .navbar-custom .dropdown-menu .dropdown.open .dropdown-toggle:after {
+        content: "\f106";
+    }
+}
